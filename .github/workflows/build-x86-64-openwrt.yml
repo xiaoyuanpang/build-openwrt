@@ -24,7 +24,8 @@ on:
       release:
         required: true
         type: string
-
+permissions:
+  contents: write
   workflow_dispatch:
     inputs:
       source:
