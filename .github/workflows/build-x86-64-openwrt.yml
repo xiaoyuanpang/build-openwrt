@@ -50,6 +50,9 @@ on:
         required: false
         default: '800'
 
+      permissions:
+        contents: write
+
       toolchain:
         description: '使用toolchain缓存'
         required: false
