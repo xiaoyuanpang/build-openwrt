@@ -49,7 +49,9 @@ on:
         description: '设置rootfs大小'
         required: false
         default: '800'
-
+      permissions:
+        contents: write
+        
       toolchain:
         description: '使用toolchain缓存'
         required: false
