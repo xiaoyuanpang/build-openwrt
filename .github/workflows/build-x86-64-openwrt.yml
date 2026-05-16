@@ -50,9 +50,6 @@ on:
         required: false
         default: '800'
         
-      permissions:
-        contents: write
-        
       toolchain:
         description: '使用toolchain缓存'
         required: false
@@ -70,6 +67,8 @@ on:
         required: false
         default: true
         type: boolean
+        
+permissions: write-all
 
 jobs:
   build:
